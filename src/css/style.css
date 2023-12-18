@@ -18,6 +18,7 @@
     --bege: #fef1e0d6;
     --azul: #1B4693;
     --vermelho:#b9030f; 
+    --branco: #fff;
 
     /*FONT DE ESCRITA*/
 
@@ -29,4 +30,61 @@
 body{
     background-color: var(--bege);
     font-family: var(--font-OpenSans);
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+header .container{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-Whisper);
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.container .ourDay{
+    width: 100%;
+    padding: 30px 0px;
+    background-color: var(--preto2);
+}
+
+.container .logo{
+    width: 100%;
+    height: 200px;
+}
+
+.container .logo #img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.container .menu{
+    width: 100%;
+    padding: 30px 0px;
+    background-color: var(--preto2);
+}
+
+.container .menu li a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+
+#sectionTeste{
+    height: 100vh;
 }
