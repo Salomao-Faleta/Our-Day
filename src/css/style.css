@@ -1,7 +1,32 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+}
+
+:root{
+    /*PALETA DE CORES*/
+    --preto1: #130912;
+    --preto2: #161917;
+    --bege: #fef1e0d6;
+    --azul: #1B4693;
+    --vermelho:#b9030f; 
+
+    /*FONT DE ESCRITA*/
+
+    --font-Oswald: 'Oswald', sans-serif;
+    --font-Whisper: 'Whisper', sans-serif;
+    --font-OpenSans: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: var(--bege);
+    font-family: var(--font-OpenSans);
 }
