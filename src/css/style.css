@@ -60,7 +60,7 @@ header .container{
 .container .ourDay{
     width: 100%;
     height: 20.33%;
-    padding: 30px 0px;
+    /* padding: 30px 0px; */
     background-color: var(--preto2);
     display: flex;
     align-items: center;
@@ -87,7 +87,6 @@ header .container{
 .container .menu{
     width: 100%;
     height: 30.33%;
-    padding: 30px 0px;
     background-color: var(--preto2);
     display: flex;
     align-items: center;
