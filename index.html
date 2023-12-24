@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +8,58 @@
     <title>Our Day</title>
 
     <!-- link para icones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
 
-<header>
-    <div class="container">
-        <div class="ourDay">
-            <span><i>16.02.2022 - ထ</i></span>
+    <header>
+        <div class="container">
+            <div class="ourDay">
+                <span><i>16.02.2022 - ထ</i></span>
+            </div>
+
+            <div class="logo">
+                <h2>R ❤️S</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="src/html/poesias.html"><i class="fa-solid fa-arrow-right"></i> Poemas</a></li>
+                    <li><a href="src/html/memorias.html"><i class="fa-solid fa-arrow-right"></i>Memórias</a></li>
+                </ul>
+            </div>
+
         </div>
+    </header>
 
-        <div class="logo">  
-            <h2>R ❤️S</h2>
-        </div>
+    <section id="carrossel-fts">
+        <article>
+            <div class="slider">          
+                <div class="slider--width">
+                    <div class="slider--item" style="background-image: url('src/images/IMG-20230103-WA0044.jpg');"></div>
+                    <div class="slider--item" style="background-image: url('src/images/IMG_20230408_162127_465.webp');"></div>
+                    <div class="slider--item" style="background-image: url('src/images/IMG-20230807-WA0039.jpg');"></div>
+                    <div class="slider--item" style="background-image: url('src/images/IMG-20230807-WA0143.jpg');"></div>
+                    <div class="slider--item" style="background-image: url('src/images/IMG-20230112-WA0069.jpg');"></div>
+                    <div class="slider--item" style="background-image: url('src/images/IMG-20230819-WA0018.jpg');"></div>
+                    <div class="slider--item" style="background-image: url('src/images/IMG-20230807-WA0087.jpg');"></div>
+                    <div class="slider--item" style="background-image: url('src/images/IMG-20230810-WA0032.jpg');"></div>
+                </div>
 
-        <div class="menu">
-            <ul>
-                <li><a href="src/html/poesias.html"><i class="fa-solid fa-arrow-right"></i> Poemas</a></li>
-                <li><a href="src/html/memorias.html"><i class="fa-solid fa-arrow-right"></i>Memórias</a></li>
-            </ul>
-        </div>
-
-    </div>
-</header>
-
-<section id="sectionTeste">
-    <h1>SEÇÃO DE TESTE</h1>
-</section>
+                <div class="slider--controls">
+                    <div class="slider--control" onclick="goPrev()"><i class="fa-solid fa-arrow-left"></i></div>
+                    <div class="slider--control" onclick="Next()"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+        </article>
+    </section>
 
 
-    <script src="src/scripts/script.js"></script>
+    <script src="src/script/script.js"></script>
 </body>
+
 </html>
